@@ -1,0 +1,23 @@
+.navbar {
+  background-color: black; /* Changed background color to black */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid white; /* Optional border at the bottom */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+  font-family: 'Arial', sans-serif; /* You can use any clean font */
+  position: sticky;
+  top: 0; /* Sticky navbar that stays at the top */
+  z-index: 1000; /* Ensure navbar stays on top of other elements */
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px; /* Adjust size as per your design */
+  letter-spacing: 1px; /* Slight letter spacing for a modern look */
+}
+
+.navbar h1:hover {
+  color: #f0f0f0; /* Slight color change on hover */
+  transition: color 0.3s ease;
+}
